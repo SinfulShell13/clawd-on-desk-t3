@@ -26,6 +26,19 @@ Clawd 代码采用 AGPL-3.0，但原版宠物动画、图片等素材有单独�
 
 先安装 Git、Node.js 24 和 T3 Code，启动 T3 并确认它能正常使用。远端需要已经在 T3 中建立 **full-access 环境链接**；不需要在 Clawd 重配 SSH 或部署远端 hooks。
 
+### 交给 AI agent 安装（尚未安装 Clawd）
+
+将下面的提示词发给能执行本地命令的 AI agent，按源码方式安装：
+
+```text
+请在这台 Windows x64 电脑上安装并启动 Clawd × T3 Code 适配版：
+https://github.com/SinfulShell13/clawd-on-desk-t3
+
+本机尚未安装 Clawd。请按仓库说明准备 Git、Node.js 24 和已启动的 T3 Code，克隆项目后运行 npm run setup，再进入 work/app 运行 npm start。无需先安装 Clawd 原版，请直接执行安装。
+```
+
+### 手动安装
+
 在解压或克隆出的补丁包目录运行：
 
 ```powershell

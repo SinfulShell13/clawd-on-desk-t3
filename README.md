@@ -34,6 +34,19 @@ Clawd's code is AGPL-3.0, while its character artwork and other assets have sepa
 
 Install Git, Node.js 24 and T3 Code first. Start T3 and confirm it works normally. Remote sessions require an existing **full-access environment link in T3**; this kit does not configure SSH or deploy a remote Clawd.
 
+### Ask an AI agent to install it (no existing Clawd installation)
+
+Copy this prompt to an AI agent that can run local commands to install from source:
+
+```text
+Install and start the Clawd for T3 Code adapter on this Windows x64 computer:
+https://github.com/SinfulShell13/clawd-on-desk-t3
+
+Clawd is not installed yet. Follow the README: prepare Git, Node.js 24 and a running T3 Code, clone the repository, run npm run setup, then enter work/app and run npm start. Carry out the installation directly; no original Clawd installation is needed.
+```
+
+### Manual installation
+
 Download/extract this patch kit, or clone this repository, then run in its directory:
 
 ```powershell
