@@ -1,0 +1,13 @@
+# Local application checkout, dependencies and personal build outputs.
+work/
+node_modules/
+dist/
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.p8
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0-preview.1",
+  "applicationVersion": "1.7.0-t3.0.1",
+  "distribution": "source-patch-kit",
+  "upstream": {
+    "repository": "https://github.com/rullerzhou-afk/clawd-on-desk.git",
+    "commit": "318d2c23979a7114e5bb79bddd67b61a475e8e85",
+    "version": "1.7.0"
+  },
+  "adapterRevision": "cadbc3e9a413d8e695c1f2ce4e7c1749f40580d1",
+  "verified": {
+    "platform": "Windows x64",
+    "t3": "0.1.12-nightly.20261121.5038",
+    "orchestrationProtocol": 2
+  },
+  "patch": {
+    "file": "patches/clawd-t3.patch",
+    "sha256": "450a872dbd54426163add48654bae67f8528d6c8c06af447dfe4391213923ef7"
+  },
+  "profileSha256": "659ea001912f1f6964f5b1ba63e7834775740016f5ba5cc8644d6b1c452c28a0",
+  "profileInputs": {
+    "src/prefs.js": "2310646bd1550d86ee51d0a207bd1f793e3dd46f7741c569c5c83abd01cc0e36",
+    "package.json": "3bc89745ba0e4dde06541aadf457e6e7dab87e0ae70c15bf92645b95cfe5c46f",
+    "package-lock.json": "860c2b0b4165e354d6ca68389be29ac93612c1ab044ef8b67516ebd428a5c01a"
+  }
+}

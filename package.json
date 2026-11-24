@@ -1,0 +1,14 @@
+{
+  "name": "clawd-t3-adapter-kit",
+  "version": "0.1.0-preview.1",
+  "private": true,
+  "description": "Unofficial T3 Code adapter patch kit for Clawd on Desk",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": { "node": ">=24.18.0" },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test test/*.test.mjs",
+    "setup": "node scripts/setup.mjs"
+  }
+}
